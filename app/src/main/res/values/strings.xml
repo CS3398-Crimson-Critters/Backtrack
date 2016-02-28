@@ -4,5 +4,8 @@
     <string name="title_activity_profile">ProfileActivity</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="change_image">Change Image</string>
+    <string name="change_image">Change Profile Picture</string>
+    <string name="tempUsername">Abigail Barron</string>
+    <string name="tempEmail">aeb3@txstate.edu</string>
+    <string name="tempPhone">512-738-1360</string>
 </resources>

@@ -9,8 +9,8 @@
         android:layout_height="wrap_content"
         android:text="@string/view_profile"
         android:id="@+id/profile_button"
+        android:onClick="viewProfile"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="viewProfile"/>
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

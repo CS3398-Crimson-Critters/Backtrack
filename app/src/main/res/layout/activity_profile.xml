@@ -8,18 +8,54 @@
     tools:context="com.example.crimson.backtrack.ProfileActivity">
 
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:id="@+id/profilePic"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/malestockprofile"
+        android:background="@android:color/transparent"
        />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/change_image"
         android:id="@+id/btn_pick"
         android:layout_below="@+id/profilePic"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/tempUsername"
+        android:ems="10"
+        android:id="@+id/username"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="@string/tempEmail"
+        android:ems="10"
+        android:id="@+id/userEmail"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="@string/tempPhone"
+        android:ems="10"
+        android:id="@+id/userPhone"
+        android:layout_below="@+id/userEmail"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
